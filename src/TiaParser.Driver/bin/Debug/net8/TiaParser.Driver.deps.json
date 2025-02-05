@@ -1,0 +1,57 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "TiaParser.Driver/1.0.0": {
+        "dependencies": {
+          "NLog": "5.3.4",
+          "zlib.net-mutliplatform": "1.0.8"
+        },
+        "runtime": {
+          "TiaParser.Driver.dll": {}
+        }
+      },
+      "NLog/5.3.4": {
+        "runtime": {
+          "lib/netstandard2.0/NLog.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.3.4.2778"
+          }
+        }
+      },
+      "zlib.net-mutliplatform/1.0.8": {
+        "runtime": {
+          "lib/netstandard2.1/zlib.net.dll": {
+            "assemblyVersion": "1.0.8.0",
+            "fileVersion": "1.0.8.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TiaParser.Driver/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NLog/5.3.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gLy7+O1hEYJXIlcTr1/VWjGXrZTQFZzYNO18IWasD64pNwz0BreV+nHLxWKXWZzERRzoKnsk2XYtwLkTVk7J1A==",
+      "path": "nlog/5.3.4",
+      "hashPath": "nlog.5.3.4.nupkg.sha512"
+    },
+    "zlib.net-mutliplatform/1.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6sYoMfSmDdfG8HgxXi0ydwCMUv5Ia1gMRh2Q0JLlTUxE9ZeWJ9dir/1Hq5MW6JcOZARRsZIOGecVx6WuAoloEA==",
+      "path": "zlib.net-mutliplatform/1.0.8",
+      "hashPath": "zlib.net-mutliplatform.1.0.8.nupkg.sha512"
+    }
+  }
+}

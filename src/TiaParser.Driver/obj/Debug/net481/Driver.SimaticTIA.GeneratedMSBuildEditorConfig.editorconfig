@@ -1,0 +1,8 @@
+is_global = true
+build_property.RootNamespace = Driver.SimaticTIA
+build_property.ProjectDir = C:\Users\rafael.mafra\Desktop\aglink\TiaParser\src\TiaParser.Driver\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 
+build_property.EnableCodeStyleSeverity = 

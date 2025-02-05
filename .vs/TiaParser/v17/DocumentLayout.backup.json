@@ -1,0 +1,391 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rafael.mafra\\Desktop\\aglink\\Tia-Parser\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{351E2061-54EA-4EFE-A87C-2E914FA6E192}|src\\TiaParser.Program\\TiaParser.Program.csproj|C:\\Users\\rafael.mafra\\Desktop\\aglink\\Tia-Parser\\src\\tiaparser.program\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{351E2061-54EA-4EFE-A87C-2E914FA6E192}|src\\TiaParser.Program\\TiaParser.Program.csproj|solutionrelative:src\\tiaparser.program\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72C8320A-5A62-6457-378E-C6DBE3E1A499}|src\\TiaParser.Driver\\TiaParser.Driver.csproj|c:\\users\\rafael.mafra\\desktop\\aglink\\tia-parser\\src\\tiaparser.driver\\tiaplcblock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72C8320A-5A62-6457-378E-C6DBE3E1A499}|src\\TiaParser.Driver\\TiaParser.Driver.csproj|solutionrelative:src\\tiaparser.driver\\tiaplcblock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72C8320A-5A62-6457-378E-C6DBE3E1A499}|src\\TiaParser.Driver\\TiaParser.Driver.csproj|c:\\users\\rafael.mafra\\desktop\\aglink\\tia-parser\\src\\tiaparser.driver\\tiaparserdriver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72C8320A-5A62-6457-378E-C6DBE3E1A499}|src\\TiaParser.Driver\\TiaParser.Driver.csproj|solutionrelative:src\\tiaparser.driver\\tiaparserdriver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{351E2061-54EA-4EFE-A87C-2E914FA6E192}|src\\TiaParser.Program\\TiaParser.Program.csproj|C:\\Users\\rafael.mafra\\Desktop\\aglink\\Tia-Parser\\src\\tiaparser.program\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{351E2061-54EA-4EFE-A87C-2E914FA6E192}|src\\TiaParser.Program\\TiaParser.Program.csproj|solutionrelative:src\\tiaparser.program\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{351E2061-54EA-4EFE-A87C-2E914FA6E192}|src\\TiaParser.Program\\TiaParser.Program.csproj|c:\\users\\rafael.mafra\\desktop\\aglink\\tia-parser\\src\\tiaparser.program\\nlog.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{351E2061-54EA-4EFE-A87C-2E914FA6E192}|src\\TiaParser.Program\\TiaParser.Program.csproj|solutionrelative:src\\tiaparser.program\\nlog.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72C8320A-5A62-6457-378E-C6DBE3E1A499}|src\\TiaParser.Driver\\TiaParser.Driver.csproj|c:\\users\\rafael.mafra\\desktop\\aglink\\tia-parser\\src\\tiaparser.driver\\nlog.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{72C8320A-5A62-6457-378E-C6DBE3E1A499}|src\\TiaParser.Driver\\TiaParser.Driver.csproj|solutionrelative:src\\tiaparser.driver\\nlog.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72C8320A-5A62-6457-378E-C6DBE3E1A499}|src\\TiaParser.Driver\\TiaParser.Driver.csproj|c:\\users\\rafael.mafra\\desktop\\aglink\\tia-parser\\src\\tiaparser.driver\\tiablock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72C8320A-5A62-6457-378E-C6DBE3E1A499}|src\\TiaParser.Driver\\TiaParser.Driver.csproj|solutionrelative:src\\tiaparser.driver\\tiablock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|TiaParser.Program||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{351E2061-54EA-4EFE-A87C-2E914FA6E192}|src\\TiaParser.Program\\TiaParser.Program.csproj|C:\\Users\\rafael.mafra\\Desktop\\aglink\\Tia-Parser\\src\\tiaparser.program\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{351E2061-54EA-4EFE-A87C-2E914FA6E192}|src\\TiaParser.Program\\TiaParser.Program.csproj|solutionrelative:src\\tiaparser.program\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72C8320A-5A62-6457-378E-C6DBE3E1A499}|src\\TiaParser.Driver\\TiaParser.Driver.csproj|c:\\users\\rafael.mafra\\desktop\\aglink\\tia-parser\\src\\tiaparser.driver\\tiaaddress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72C8320A-5A62-6457-378E-C6DBE3E1A499}|src\\TiaParser.Driver\\TiaParser.Driver.csproj|solutionrelative:src\\tiaparser.driver\\tiaaddress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72C8320A-5A62-6457-378E-C6DBE3E1A499}|src\\TiaParser.Driver\\TiaParser.Driver.csproj|c:\\users\\rafael.mafra\\desktop\\aglink\\tia-parser\\src\\tiaparser.driver\\tiaparserelements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72C8320A-5A62-6457-378E-C6DBE3E1A499}|src\\TiaParser.Driver\\TiaParser.Driver.csproj|solutionrelative:src\\tiaparser.driver\\tiaparserelements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72C8320A-5A62-6457-378E-C6DBE3E1A499}|src\\TiaParser.Driver\\TiaParser.Driver.csproj|c:\\users\\rafael.mafra\\desktop\\aglink\\tia-parser\\src\\tiaparser.driver\\tiaparser.driver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{72C8320A-5A62-6457-378E-C6DBE3E1A499}|src\\TiaParser.Driver\\TiaParser.Driver.csproj|solutionrelative:src\\tiaparser.driver\\tiaparser.driver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72C8320A-5A62-6457-378E-C6DBE3E1A499}|src\\TiaParser.Driver\\TiaParser.Driver.csproj|c:\\users\\rafael.mafra\\desktop\\aglink\\tia-parser\\src\\tiaparser.driver\\tiaparsercompressed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72C8320A-5A62-6457-378E-C6DBE3E1A499}|src\\TiaParser.Driver\\TiaParser.Driver.csproj|solutionrelative:src\\tiaparser.driver\\tiaparsercompressed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72C8320A-5A62-6457-378E-C6DBE3E1A499}|src\\TiaParser.Driver\\TiaParser.Driver.csproj|c:\\users\\rafael.mafra\\desktop\\aglink\\tia-parser\\src\\tiaparser.driver\\tiaxmlblock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72C8320A-5A62-6457-378E-C6DBE3E1A499}|src\\TiaParser.Driver\\TiaParser.Driver.csproj|solutionrelative:src\\tiaparser.driver\\tiaxmlblock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72C8320A-5A62-6457-378E-C6DBE3E1A499}|src\\TiaParser.Driver\\TiaParser.Driver.csproj|c:\\users\\rafael.mafra\\desktop\\aglink\\tia-parser\\src\\tiaparser.driver\\tiaparserreferenceblocks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72C8320A-5A62-6457-378E-C6DBE3E1A499}|src\\TiaParser.Driver\\TiaParser.Driver.csproj|solutionrelative:src\\tiaparser.driver\\tiaparserreferenceblocks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72C8320A-5A62-6457-378E-C6DBE3E1A499}|src\\TiaParser.Driver\\TiaParser.Driver.csproj|c:\\users\\rafael.mafra\\desktop\\aglink\\tia-parser\\src\\tiaparser.driver\\tiaelementblockdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72C8320A-5A62-6457-378E-C6DBE3E1A499}|src\\TiaParser.Driver\\TiaParser.Driver.csproj|solutionrelative:src\\tiaparser.driver\\tiaelementblockdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72C8320A-5A62-6457-378E-C6DBE3E1A499}|src\\TiaParser.Driver\\TiaParser.Driver.csproj|c:\\users\\rafael.mafra\\desktop\\aglink\\tia-parser\\src\\tiaparser.driver\\tiacompressedblock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72C8320A-5A62-6457-378E-C6DBE3E1A499}|src\\TiaParser.Driver\\TiaParser.Driver.csproj|solutionrelative:src\\tiaparser.driver\\tiacompressedblock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72C8320A-5A62-6457-378E-C6DBE3E1A499}|src\\TiaParser.Driver\\TiaParser.Driver.csproj|c:\\users\\rafael.mafra\\desktop\\aglink\\tia-parser\\src\\tiaparser.driver\\tiaaddressdatablock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72C8320A-5A62-6457-378E-C6DBE3E1A499}|src\\TiaParser.Driver\\TiaParser.Driver.csproj|solutionrelative:src\\tiaparser.driver\\tiaaddressdatablock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 194,
+          "SelectedChildIndex": 23,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:142:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:143:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{de1fc918-f32e-4dd7-a915-1792a051f26b}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TiaPlcBlock.cs",
+              "DocumentMoniker": "C:\\Users\\rafael.mafra\\Desktop\\aglink\\Tia-Parser\\src\\TiaParser.Driver\\TiaPlcBlock.cs",
+              "RelativeDocumentMoniker": "src\\TiaParser.Driver\\TiaPlcBlock.cs",
+              "ToolTip": "C:\\Users\\rafael.mafra\\Desktop\\aglink\\Tia-Parser\\src\\TiaParser.Driver\\TiaPlcBlock.cs",
+              "RelativeToolTip": "src\\TiaParser.Driver\\TiaPlcBlock.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T09:49:58.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TiaParserDriver.cs",
+              "DocumentMoniker": "C:\\Users\\rafael.mafra\\Desktop\\aglink\\Tia-Parser\\src\\TiaParser.Driver\\TiaParserDriver.cs",
+              "RelativeDocumentMoniker": "src\\TiaParser.Driver\\TiaParserDriver.cs",
+              "ToolTip": "C:\\Users\\rafael.mafra\\Desktop\\aglink\\Tia-Parser\\src\\TiaParser.Driver\\TiaParserDriver.cs",
+              "RelativeToolTip": "src\\TiaParser.Driver\\TiaParserDriver.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAswBkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T09:47:34.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TiaElementBlockData.cs",
+              "DocumentMoniker": "C:\\Users\\rafael.mafra\\Desktop\\aglink\\Tia-Parser\\src\\TiaParser.Driver\\TiaElementBlockData.cs",
+              "RelativeDocumentMoniker": "src\\TiaParser.Driver\\TiaElementBlockData.cs",
+              "ToolTip": "C:\\Users\\rafael.mafra\\Desktop\\aglink\\Tia-Parser\\src\\TiaParser.Driver\\TiaElementBlockData.cs",
+              "RelativeToolTip": "src\\TiaParser.Driver\\TiaElementBlockData.cs",
+              "ViewState": "AgIAAD8CAAAAAAAAAAAAAAYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T09:54:25.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TiaParserReferenceBlocks.cs",
+              "DocumentMoniker": "C:\\Users\\rafael.mafra\\Desktop\\aglink\\Tia-Parser\\src\\TiaParser.Driver\\TiaParserReferenceBlocks.cs",
+              "RelativeDocumentMoniker": "src\\TiaParser.Driver\\TiaParserReferenceBlocks.cs",
+              "ToolTip": "C:\\Users\\rafael.mafra\\Desktop\\aglink\\Tia-Parser\\src\\TiaParser.Driver\\TiaParserReferenceBlocks.cs",
+              "RelativeToolTip": "src\\TiaParser.Driver\\TiaParserReferenceBlocks.cs",
+              "ViewState": "AgIAAL0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T09:49:49.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TiaParserElements.cs",
+              "DocumentMoniker": "C:\\Users\\rafael.mafra\\Desktop\\aglink\\Tia-Parser\\src\\TiaParser.Driver\\TiaParserElements.cs",
+              "RelativeDocumentMoniker": "src\\TiaParser.Driver\\TiaParserElements.cs",
+              "ToolTip": "C:\\Users\\rafael.mafra\\Desktop\\aglink\\Tia-Parser\\src\\TiaParser.Driver\\TiaParserElements.cs",
+              "RelativeToolTip": "src\\TiaParser.Driver\\TiaParserElements.cs",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAuwKYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T09:49:45.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TiaBlock.cs",
+              "DocumentMoniker": "C:\\Users\\rafael.mafra\\Desktop\\aglink\\Tia-Parser\\src\\TiaParser.Driver\\TiaBlock.cs",
+              "RelativeDocumentMoniker": "src\\TiaParser.Driver\\TiaBlock.cs",
+              "ToolTip": "C:\\Users\\rafael.mafra\\Desktop\\aglink\\Tia-Parser\\src\\TiaParser.Driver\\TiaBlock.cs",
+              "RelativeToolTip": "src\\TiaParser.Driver\\TiaBlock.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T09:49:41.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TiaAddress.cs",
+              "DocumentMoniker": "C:\\Users\\rafael.mafra\\Desktop\\aglink\\Tia-Parser\\src\\TiaParser.Driver\\TiaAddress.cs",
+              "RelativeDocumentMoniker": "src\\TiaParser.Driver\\TiaAddress.cs",
+              "ToolTip": "C:\\Users\\rafael.mafra\\Desktop\\aglink\\Tia-Parser\\src\\TiaParser.Driver\\TiaAddress.cs",
+              "RelativeToolTip": "src\\TiaParser.Driver\\TiaAddress.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T09:49:37.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\rafael.mafra\\Desktop\\aglink\\Tia-Parser\\src\\TiaParser.Program\\Program.cs",
+              "RelativeDocumentMoniker": "src\\TiaParser.Program\\Program.cs",
+              "ToolTip": "C:\\Users\\rafael.mafra\\Desktop\\aglink\\Tia-Parser\\src\\TiaParser.Program\\Program.cs",
+              "RelativeToolTip": "src\\TiaParser.Program\\Program.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T09:44:49.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "nlog.config",
+              "DocumentMoniker": "C:\\Users\\rafael.mafra\\Desktop\\aglink\\Tia-Parser\\src\\TiaParser.Program\\nlog.config",
+              "RelativeDocumentMoniker": "src\\TiaParser.Program\\nlog.config",
+              "ToolTip": "C:\\Users\\rafael.mafra\\Desktop\\aglink\\Tia-Parser\\src\\TiaParser.Program\\nlog.config",
+              "RelativeToolTip": "src\\TiaParser.Program\\nlog.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-02-05T10:45:32.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "nlog.config",
+              "DocumentMoniker": "C:\\Users\\rafael.mafra\\Desktop\\aglink\\Tia-Parser\\src\\TiaParser.Driver\\nlog.config",
+              "RelativeDocumentMoniker": "src\\TiaParser.Driver\\nlog.config",
+              "ToolTip": "C:\\Users\\rafael.mafra\\Desktop\\aglink\\Tia-Parser\\src\\TiaParser.Driver\\nlog.config",
+              "RelativeToolTip": "src\\TiaParser.Driver\\nlog.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-02-05T11:14:34.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TiaParser.Program",
+              "DocumentMoniker": "C:\\Users\\rafael.mafra\\Desktop\\aglink\\Tia-Parser\\src\\TiaParser.Program\\TiaParser.Program.csproj",
+              "RelativeDocumentMoniker": "src\\TiaParser.Program\\TiaParser.Program.csproj",
+              "ToolTip": "C:\\Users\\rafael.mafra\\Desktop\\aglink\\Tia-Parser\\src\\TiaParser.Program\\TiaParser.Program.csproj",
+              "RelativeToolTip": "src\\TiaParser.Program\\TiaParser.Program.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-02-05T12:20:25.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "TiaAddressDataBlock.cs",
+              "DocumentMoniker": "C:\\Users\\rafael.mafra\\Desktop\\aglink\\Tia-Parser\\src\\TiaParser.Driver\\TiaAddressDataBlock.cs",
+              "RelativeDocumentMoniker": "src\\TiaParser.Driver\\TiaAddressDataBlock.cs",
+              "ToolTip": "C:\\Users\\rafael.mafra\\Desktop\\aglink\\Tia-Parser\\src\\TiaParser.Driver\\TiaAddressDataBlock.cs",
+              "RelativeToolTip": "src\\TiaParser.Driver\\TiaAddressDataBlock.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T09:54:38.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TiaParser.Driver.csproj",
+              "DocumentMoniker": "C:\\Users\\rafael.mafra\\Desktop\\aglink\\Tia-Parser\\src\\TiaParser.Driver\\TiaParser.Driver.csproj",
+              "RelativeDocumentMoniker": "src\\TiaParser.Driver\\TiaParser.Driver.csproj",
+              "ToolTip": "C:\\Users\\rafael.mafra\\Desktop\\aglink\\Tia-Parser\\src\\TiaParser.Driver\\TiaParser.Driver.csproj",
+              "RelativeToolTip": "src\\TiaParser.Driver\\TiaParser.Driver.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-05T09:46:02.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\rafael.mafra\\Desktop\\aglink\\Tia-Parser\\src\\TiaParser.Program\\App.config",
+              "RelativeDocumentMoniker": "src\\TiaParser.Program\\App.config",
+              "ToolTip": "C:\\Users\\rafael.mafra\\Desktop\\aglink\\Tia-Parser\\src\\TiaParser.Program\\App.config",
+              "RelativeToolTip": "src\\TiaParser.Program\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-02-05T10:16:00.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\rafael.mafra\\Desktop\\aglink\\Tia-Parser\\src\\TiaParser.Program\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "src\\TiaParser.Program\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\rafael.mafra\\Desktop\\aglink\\Tia-Parser\\src\\TiaParser.Program\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "src\\TiaParser.Program\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T09:56:57.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TiaXmlBlock.cs",
+              "DocumentMoniker": "C:\\Users\\rafael.mafra\\Desktop\\aglink\\Tia-Parser\\src\\TiaParser.Driver\\TiaXmlBlock.cs",
+              "RelativeDocumentMoniker": "src\\TiaParser.Driver\\TiaXmlBlock.cs",
+              "ToolTip": "C:\\Users\\rafael.mafra\\Desktop\\aglink\\Tia-Parser\\src\\TiaParser.Driver\\TiaXmlBlock.cs",
+              "RelativeToolTip": "src\\TiaParser.Driver\\TiaXmlBlock.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAuwAIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T09:55:14.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TiaParserCompressed.cs",
+              "DocumentMoniker": "C:\\Users\\rafael.mafra\\Desktop\\aglink\\Tia-Parser\\src\\TiaParser.Driver\\TiaParserCompressed.cs",
+              "RelativeDocumentMoniker": "src\\TiaParser.Driver\\TiaParserCompressed.cs",
+              "ToolTip": "C:\\Users\\rafael.mafra\\Desktop\\aglink\\Tia-Parser\\src\\TiaParser.Driver\\TiaParserCompressed.cs",
+              "RelativeToolTip": "src\\TiaParser.Driver\\TiaParserCompressed.cs",
+              "ViewState": "AgIAAOsAAAAAAAAAAAAcwPYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T10:35:11.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TiaCompressedBlock.cs",
+              "DocumentMoniker": "C:\\Users\\rafael.mafra\\Desktop\\aglink\\Tia-Parser\\src\\TiaParser.Driver\\TiaCompressedBlock.cs",
+              "RelativeDocumentMoniker": "src\\TiaParser.Driver\\TiaCompressedBlock.cs",
+              "ToolTip": "C:\\Users\\rafael.mafra\\Desktop\\aglink\\Tia-Parser\\src\\TiaParser.Driver\\TiaCompressedBlock.cs",
+              "RelativeToolTip": "src\\TiaParser.Driver\\TiaCompressedBlock.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAgwAcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T09:55:35.697Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 206,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:928770227:0:{81164725-9a96-4ece-a4cb-440d8fd285e5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:254354193:0:{71f361cc-493f-47c0-923f-f2570b6f8618}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

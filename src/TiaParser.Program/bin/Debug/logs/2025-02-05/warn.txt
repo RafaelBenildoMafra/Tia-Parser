@@ -1,0 +1,438 @@
+2025-02-05 12:24:07.0730|WARN|Program.Program|Please specify the TIA system file as a parameter!
+2025-02-05 13:21:02.6280|WARN|Program.Program|Please specify the TIA system file as a parameter!
+2025-02-05 13:21:04.5403|WARN|Program.Program|Please specify the TIA system file as a parameter!
+2025-02-05 13:22:02.1337|WARN|Program.Program|Please specify the TIA system file as a parameter!
+2025-02-05 13:22:26.6558|WARN|Program.Program|Please specify the TIA system file as a parameter!
+2025-02-05 13:22:32.6200|WARN|Program.Program|Please specify the TIA system file as a parameter!
+2025-02-05 13:22:42.0735|WARN|TiaParser.Driver.TiaParserDriver|Failed to Extract Compressed Element Root - 1197231|System.IO.InvalidDataException: Found invalid data while decoding.
+   at TiaParser.Driver.TiaParserCompressed.DecompressSegment(Byte[] segment) in C:\Users\rafael.mafra\Desktop\aglink\TiaParser\src\TiaParser.Driver\TiaParserCompressed.cs:line 308
+   at TiaParser.Driver.TiaParserCompressed.PartialExtraction(TiaParserDriver tiaParser, Byte[] decompressedElementData, Match zlibHeader, String elementName, Byte[] originalSegment, TiaParserCompressed tiaParserCompressed) in C:\Users\rafael.mafra\Desktop\aglink\TiaParser\src\TiaParser.Driver\TiaParserCompressed.cs:line 201
+   at TiaParser.Driver.TiaParserCompressed.BuildDecompressedElement(TiaParserDriver tiaParser, Byte[] decompressedElementData, Byte[] segment, String elementName, Match zlibHeader, TiaParserCompressed tiaParserCompressed, Boolean failed) in C:\Users\rafael.mafra\Desktop\aglink\TiaParser\src\TiaParser.Driver\TiaParserCompressed.cs:line 119
+   at TiaParser.Driver.TiaParserCompressed.DefineDecompressedElement(TiaParserDriver tiaParser, Match zlibHeader, String elementName, TiaParserCompressed tiaParserCompressed) in C:\Users\rafael.mafra\Desktop\aglink\TiaParser\src\TiaParser.Driver\TiaParserCompressed.cs:line 56
+   at TiaParser.Driver.TiaParserCompressed.ParseCompressedElements(TiaParserDriver tiaParser) in C:\Users\rafael.mafra\Desktop\aglink\TiaParser\src\TiaParser.Driver\TiaParserCompressed.cs:line 268
+2025-02-05 13:22:43.5557|WARN|TiaParser.Driver.TiaParserDriver|Failed to Extract Compressed Element Root - 3182229|System.IO.InvalidDataException: Found invalid data while decoding.
+   at TiaParser.Driver.TiaParserCompressed.DecompressSegment(Byte[] segment) in C:\Users\rafael.mafra\Desktop\aglink\TiaParser\src\TiaParser.Driver\TiaParserCompressed.cs:line 308
+   at TiaParser.Driver.TiaParserCompressed.PartialExtraction(TiaParserDriver tiaParser, Byte[] decompressedElementData, Match zlibHeader, String elementName, Byte[] originalSegment, TiaParserCompressed tiaParserCompressed) in C:\Users\rafael.mafra\Desktop\aglink\TiaParser\src\TiaParser.Driver\TiaParserCompressed.cs:line 201
+   at TiaParser.Driver.TiaParserCompressed.BuildDecompressedElement(TiaParserDriver tiaParser, Byte[] decompressedElementData, Byte[] segment, String elementName, Match zlibHeader, TiaParserCompressed tiaParserCompressed, Boolean failed) in C:\Users\rafael.mafra\Desktop\aglink\TiaParser\src\TiaParser.Driver\TiaParserCompressed.cs:line 119
+   at TiaParser.Driver.TiaParserCompressed.DefineDecompressedElement(TiaParserDriver tiaParser, Match zlibHeader, String elementName, TiaParserCompressed tiaParserCompressed) in C:\Users\rafael.mafra\Desktop\aglink\TiaParser\src\TiaParser.Driver\TiaParserCompressed.cs:line 56
+   at TiaParser.Driver.TiaParserCompressed.ParseCompressedElements(TiaParserDriver tiaParser) in C:\Users\rafael.mafra\Desktop\aglink\TiaParser\src\TiaParser.Driver\TiaParserCompressed.cs:line 268
+2025-02-05 13:22:47.6168|WARN|TiaParser.Driver.TiaParserDriver|Invalid Block Match DB Exception - Index and length must refer to a location within the string.
+Parameter name: length|System.ArgumentOutOfRangeException: Index and length must refer to a location within the string.
+Parameter name: length
+   at System.String.Substring(Int32 startIndex, Int32 length)
+   at TiaParser.Driver.TiaBlock.AddBlockMatch(TiaParserDriver tiaParser, Int32 startIndex, Int32 size, String matchType) in C:\Users\rafael.mafra\Desktop\aglink\TiaParser\src\TiaParser.Driver\TiaBlock.cs:line 189
+2025-02-05 13:22:47.6168|WARN|TiaParser.Driver.TiaParserDriver|Invalid Block Match DB Exception - Index and length must refer to a location within the string.
+Parameter name: length|System.ArgumentOutOfRangeException: Index and length must refer to a location within the string.
+Parameter name: length
+   at System.String.Substring(Int32 startIndex, Int32 length)
+   at TiaParser.Driver.TiaBlock.AddBlockMatch(TiaParserDriver tiaParser, Int32 startIndex, Int32 size, String matchType) in C:\Users\rafael.mafra\Desktop\aglink\TiaParser\src\TiaParser.Driver\TiaBlock.cs:line 189
+2025-02-05 13:22:47.6168|WARN|TiaParser.Driver.TiaParserDriver|Invalid Block Match DB Exception - Index and length must refer to a location within the string.
+Parameter name: length|System.ArgumentOutOfRangeException: Index and length must refer to a location within the string.
+Parameter name: length
+   at System.String.Substring(Int32 startIndex, Int32 length)
+   at TiaParser.Driver.TiaBlock.AddBlockMatch(TiaParserDriver tiaParser, Int32 startIndex, Int32 size, String matchType) in C:\Users\rafael.mafra\Desktop\aglink\TiaParser\src\TiaParser.Driver\TiaBlock.cs:line 189
+2025-02-05 13:22:47.6168|WARN|TiaParser.Driver.TiaParserDriver|Invalid Block Match DB Exception - Index and length must refer to a location within the string.
+Parameter name: length|System.ArgumentOutOfRangeException: Index and length must refer to a location within the string.
+Parameter name: length
+   at System.String.Substring(Int32 startIndex, Int32 length)
+   at TiaParser.Driver.TiaBlock.AddBlockMatch(TiaParserDriver tiaParser, Int32 startIndex, Int32 size, String matchType) in C:\Users\rafael.mafra\Desktop\aglink\TiaParser\src\TiaParser.Driver\TiaBlock.cs:line 189
+2025-02-05 13:22:47.6335|WARN|TiaParser.Driver.TiaParserDriver|Invalid Block Match DB Exception - Index and length must refer to a location within the string.
+Parameter name: length|System.ArgumentOutOfRangeException: Index and length must refer to a location within the string.
+Parameter name: length
+   at System.String.Substring(Int32 startIndex, Int32 length)
+   at TiaParser.Driver.TiaBlock.AddBlockMatch(TiaParserDriver tiaParser, Int32 startIndex, Int32 size, String matchType) in C:\Users\rafael.mafra\Desktop\aglink\TiaParser\src\TiaParser.Driver\TiaBlock.cs:line 189
+2025-02-05 13:22:47.6335|WARN|TiaParser.Driver.TiaParserDriver|Invalid Block Match DB Exception - Index and length must refer to a location within the string.
+Parameter name: length|System.ArgumentOutOfRangeException: Index and length must refer to a location within the string.
+Parameter name: length
+   at System.String.Substring(Int32 startIndex, Int32 length)
+   at TiaParser.Driver.TiaBlock.AddBlockMatch(TiaParserDriver tiaParser, Int32 startIndex, Int32 size, String matchType) in C:\Users\rafael.mafra\Desktop\aglink\TiaParser\src\TiaParser.Driver\TiaBlock.cs:line 189
+2025-02-05 13:22:48.6560|WARN|TiaParser.Driver.TiaParserDriver|INVALID XML Block: 2785732|System.Xml.XmlException: There are multiple root elements. Line 1, position 77.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   at System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   at System.Xml.Linq.XDocument.Load(XmlReader reader, LoadOptions options)
+   at System.Xml.Linq.XDocument.Parse(String text, LoadOptions options)
+   at System.Xml.Linq.XDocument.Parse(String text)
+   at TiaParser.Driver.TiaXmlBlock.ParseXmlData(TiaParserDriver tiaParser) in C:\Users\rafael.mafra\Desktop\aglink\TiaParser\src\TiaParser.Driver\TiaXmlBlock.cs:line 101
+2025-02-05 13:22:48.6560|WARN|TiaParser.Driver.TiaParserDriver|FAILED TO FIND ENCRYPTED ROOT BLOCK: 2800618:
+2025-02-05 13:22:48.6560|WARN|TiaParser.Driver.TiaParserDriver|INVALID XML Block: 2871936|System.Xml.XmlException: There are multiple root elements. Line 1, position 84.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   at System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   at System.Xml.Linq.XDocument.Load(XmlReader reader, LoadOptions options)
+   at System.Xml.Linq.XDocument.Parse(String text, LoadOptions options)
+   at System.Xml.Linq.XDocument.Parse(String text)
+   at TiaParser.Driver.TiaXmlBlock.ParseXmlData(TiaParserDriver tiaParser) in C:\Users\rafael.mafra\Desktop\aglink\TiaParser\src\TiaParser.Driver\TiaXmlBlock.cs:line 101
+2025-02-05 13:22:48.6637|WARN|TiaParser.Driver.TiaParserDriver|FAILED TO FIND ENCRYPTED ROOT BLOCK: 3045734:
+2025-02-05 13:22:48.6637|WARN|TiaParser.Driver.TiaParserDriver|FAILED TO FIND ENCRYPTED ROOT BLOCK: 3055070:
+2025-02-05 13:22:48.6637|WARN|TiaParser.Driver.TiaParserDriver|INVALID XML Block: 3056205|System.Xml.XmlException: There are multiple root elements. Line 1, position 77.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   at System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   at System.Xml.Linq.XDocument.Load(XmlReader reader, LoadOptions options)
+   at System.Xml.Linq.XDocument.Parse(String text, LoadOptions options)
+   at System.Xml.Linq.XDocument.Parse(String text)
+   at TiaParser.Driver.TiaXmlBlock.ParseXmlData(TiaParserDriver tiaParser) in C:\Users\rafael.mafra\Desktop\aglink\TiaParser\src\TiaParser.Driver\TiaXmlBlock.cs:line 101
+2025-02-05 13:22:48.6637|WARN|TiaParser.Driver.TiaParserDriver|FAILED TO FIND ENCRYPTED ROOT BLOCK: 3206010:   d    %   !        DTL*84314C2C-B286-41C2-9A75-32EA79E15D4B:V3.0        
+2025-02-05 13:22:48.6637|WARN|TiaParser.Driver.TiaParserDriver|FAILED TO FIND ENCRYPTED ROOT BLOCK: 3255439:
+2025-02-05 13:22:48.6637|WARN|TiaParser.Driver.TiaParserDriver|INVALID XML Block: 3340220|System.Xml.XmlException: There are multiple root elements. Line 1, position 80.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   at System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   at System.Xml.Linq.XDocument.Load(XmlReader reader, LoadOptions options)
+   at System.Xml.Linq.XDocument.Parse(String text, LoadOptions options)
+   at System.Xml.Linq.XDocument.Parse(String text)
+   at TiaParser.Driver.TiaXmlBlock.ParseXmlData(TiaParserDriver tiaParser) in C:\Users\rafael.mafra\Desktop\aglink\TiaParser\src\TiaParser.Driver\TiaXmlBlock.cs:line 101
+2025-02-05 13:22:48.6637|WARN|TiaParser.Driver.TiaParserDriver|INVALID XML Block: 3384050|System.Xml.XmlException: There are multiple root elements. Line 1, position 68.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   at System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   at System.Xml.Linq.XDocument.Load(XmlReader reader, LoadOptions options)
+   at System.Xml.Linq.XDocument.Parse(String text, LoadOptions options)
+   at System.Xml.Linq.XDocument.Parse(String text)
+   at TiaParser.Driver.TiaXmlBlock.ParseXmlData(TiaParserDriver tiaParser) in C:\Users\rafael.mafra\Desktop\aglink\TiaParser\src\TiaParser.Driver\TiaXmlBlock.cs:line 101
+2025-02-05 13:22:48.6801|WARN|TiaParser.Driver.TiaParserDriver|INVALID XML Block: 3948348|System.Xml.XmlException: There are multiple root elements. Line 1, position 84.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   at System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   at System.Xml.Linq.XDocument.Load(XmlReader reader, LoadOptions options)
+   at System.Xml.Linq.XDocument.Parse(String text, LoadOptions options)
+   at System.Xml.Linq.XDocument.Parse(String text)
+   at TiaParser.Driver.TiaXmlBlock.ParseXmlData(TiaParserDriver tiaParser) in C:\Users\rafael.mafra\Desktop\aglink\TiaParser\src\TiaParser.Driver\TiaXmlBlock.cs:line 101
+2025-02-05 13:22:48.6801|WARN|TiaParser.Driver.TiaParserDriver|FAILED TO FIND ENCRYPTED ROOT BLOCK: 4117939:
+2025-02-05 13:22:48.6801|WARN|TiaParser.Driver.TiaParserDriver|INVALID XML Block: 4139489|System.Xml.XmlException: There are multiple root elements. Line 1, position 77.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   at System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   at System.Xml.Linq.XDocument.Load(XmlReader reader, LoadOptions options)
+   at System.Xml.Linq.XDocument.Parse(String text, LoadOptions options)
+   at System.Xml.Linq.XDocument.Parse(String text)
+   at TiaParser.Driver.TiaXmlBlock.ParseXmlData(TiaParserDriver tiaParser) in C:\Users\rafael.mafra\Desktop\aglink\TiaParser\src\TiaParser.Driver\TiaXmlBlock.cs:line 101
+2025-02-05 13:22:48.6801|WARN|TiaParser.Driver.TiaParserDriver|FAILED TO FIND ENCRYPTED ROOT BLOCK: 4140875:
+2025-02-05 13:22:48.6801|WARN|TiaParser.Driver.TiaParserDriver|INVALID XML Block: 4152566|System.Xml.XmlException: There are multiple root elements. Line 1, position 68.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   at System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   at System.Xml.Linq.XDocument.Load(XmlReader reader, LoadOptions options)
+   at System.Xml.Linq.XDocument.Parse(String text, LoadOptions options)
+   at System.Xml.Linq.XDocument.Parse(String text)
+   at TiaParser.Driver.TiaXmlBlock.ParseXmlData(TiaParserDriver tiaParser) in C:\Users\rafael.mafra\Desktop\aglink\TiaParser\src\TiaParser.Driver\TiaXmlBlock.cs:line 101
+2025-02-05 13:22:48.6801|WARN|TiaParser.Driver.TiaParserDriver|FAILED TO FIND MEMBER BLOCK: 3056197
+2025-02-05 13:22:48.6801|WARN|TiaParser.Driver.TiaParserDriver|FAILED TO FIND MEMBER BLOCK: 4139481
+2025-02-05 13:22:48.6956|WARN|TiaParser.Driver.TiaParserDriver|FAILED MAPPING XML BLOCK WITH ELEMENT RTG1SysInfo - 3213663
+2025-02-05 13:22:48.6956|WARN|TiaParser.Driver.TiaParserDriver|FAILED MAPPING XML BLOCK WITH ELEMENT FB32769_IDB_C - 3267087
+2025-02-05 13:22:48.6956|WARN|TiaParser.Driver.TiaParserDriver|FAILED MAPPING XML BLOCK WITH ELEMENT FB32770_IDB_C - 3302878
+2025-02-05 13:22:48.6956|WARN|TiaParser.Driver.TiaParserDriver|FAILED MAPPING XML BLOCK WITH ELEMENT FB32772_IDB_C - 3330645
+2025-02-05 13:27:42.0859|WARN|Program.Program|Please specify the TIA system file as a parameter!
+2025-02-05 13:28:20.6488|WARN|Program.Program|Please specify the TIA system file as a parameter!
+2025-02-05 13:28:32.8771|WARN|TiaParser.Driver.TiaParserDriver|Failed to Extract Compressed Element Root - 1197231|System.IO.InvalidDataException: Found invalid data while decoding.
+   at TiaParser.Driver.TiaParserCompressed.DecompressSegment(Byte[] segment) in C:\Users\rafael.mafra\Desktop\aglink\Tia-Parser\src\TiaParser.Driver\TiaParserCompressed.cs:line 308
+   at TiaParser.Driver.TiaParserCompressed.PartialExtraction(TiaParserDriver tiaParser, Byte[] decompressedElementData, Match zlibHeader, String elementName, Byte[] originalSegment, TiaParserCompressed tiaParserCompressed) in C:\Users\rafael.mafra\Desktop\aglink\Tia-Parser\src\TiaParser.Driver\TiaParserCompressed.cs:line 201
+   at TiaParser.Driver.TiaParserCompressed.BuildDecompressedElement(TiaParserDriver tiaParser, Byte[] decompressedElementData, Byte[] segment, String elementName, Match zlibHeader, TiaParserCompressed tiaParserCompressed, Boolean failed) in C:\Users\rafael.mafra\Desktop\aglink\Tia-Parser\src\TiaParser.Driver\TiaParserCompressed.cs:line 119
+   at TiaParser.Driver.TiaParserCompressed.DefineDecompressedElement(TiaParserDriver tiaParser, Match zlibHeader, String elementName, TiaParserCompressed tiaParserCompressed) in C:\Users\rafael.mafra\Desktop\aglink\Tia-Parser\src\TiaParser.Driver\TiaParserCompressed.cs:line 56
+   at TiaParser.Driver.TiaParserCompressed.ParseCompressedElements(TiaParserDriver tiaParser) in C:\Users\rafael.mafra\Desktop\aglink\Tia-Parser\src\TiaParser.Driver\TiaParserCompressed.cs:line 268
+2025-02-05 13:28:34.4055|WARN|TiaParser.Driver.TiaParserDriver|Failed to Extract Compressed Element Root - 3182229|System.IO.InvalidDataException: Found invalid data while decoding.
+   at TiaParser.Driver.TiaParserCompressed.DecompressSegment(Byte[] segment) in C:\Users\rafael.mafra\Desktop\aglink\Tia-Parser\src\TiaParser.Driver\TiaParserCompressed.cs:line 308
+   at TiaParser.Driver.TiaParserCompressed.PartialExtraction(TiaParserDriver tiaParser, Byte[] decompressedElementData, Match zlibHeader, String elementName, Byte[] originalSegment, TiaParserCompressed tiaParserCompressed) in C:\Users\rafael.mafra\Desktop\aglink\Tia-Parser\src\TiaParser.Driver\TiaParserCompressed.cs:line 201
+   at TiaParser.Driver.TiaParserCompressed.BuildDecompressedElement(TiaParserDriver tiaParser, Byte[] decompressedElementData, Byte[] segment, String elementName, Match zlibHeader, TiaParserCompressed tiaParserCompressed, Boolean failed) in C:\Users\rafael.mafra\Desktop\aglink\Tia-Parser\src\TiaParser.Driver\TiaParserCompressed.cs:line 119
+   at TiaParser.Driver.TiaParserCompressed.DefineDecompressedElement(TiaParserDriver tiaParser, Match zlibHeader, String elementName, TiaParserCompressed tiaParserCompressed) in C:\Users\rafael.mafra\Desktop\aglink\Tia-Parser\src\TiaParser.Driver\TiaParserCompressed.cs:line 56
+   at TiaParser.Driver.TiaParserCompressed.ParseCompressedElements(TiaParserDriver tiaParser) in C:\Users\rafael.mafra\Desktop\aglink\Tia-Parser\src\TiaParser.Driver\TiaParserCompressed.cs:line 268
+2025-02-05 13:28:38.5599|WARN|TiaParser.Driver.TiaParserDriver|Invalid Block Match DB Exception - Index and length must refer to a location within the string.
+Parameter name: length|System.ArgumentOutOfRangeException: Index and length must refer to a location within the string.
+Parameter name: length
+   at System.String.Substring(Int32 startIndex, Int32 length)
+   at TiaParser.Driver.TiaBlock.AddBlockMatch(TiaParserDriver tiaParser, Int32 startIndex, Int32 size, String matchType) in C:\Users\rafael.mafra\Desktop\aglink\Tia-Parser\src\TiaParser.Driver\TiaBlock.cs:line 189
+2025-02-05 13:28:38.5599|WARN|TiaParser.Driver.TiaParserDriver|Invalid Block Match DB Exception - Index and length must refer to a location within the string.
+Parameter name: length|System.ArgumentOutOfRangeException: Index and length must refer to a location within the string.
+Parameter name: length
+   at System.String.Substring(Int32 startIndex, Int32 length)
+   at TiaParser.Driver.TiaBlock.AddBlockMatch(TiaParserDriver tiaParser, Int32 startIndex, Int32 size, String matchType) in C:\Users\rafael.mafra\Desktop\aglink\Tia-Parser\src\TiaParser.Driver\TiaBlock.cs:line 189
+2025-02-05 13:28:38.5599|WARN|TiaParser.Driver.TiaParserDriver|Invalid Block Match DB Exception - Index and length must refer to a location within the string.
+Parameter name: length|System.ArgumentOutOfRangeException: Index and length must refer to a location within the string.
+Parameter name: length
+   at System.String.Substring(Int32 startIndex, Int32 length)
+   at TiaParser.Driver.TiaBlock.AddBlockMatch(TiaParserDriver tiaParser, Int32 startIndex, Int32 size, String matchType) in C:\Users\rafael.mafra\Desktop\aglink\Tia-Parser\src\TiaParser.Driver\TiaBlock.cs:line 189
+2025-02-05 13:28:38.5729|WARN|TiaParser.Driver.TiaParserDriver|Invalid Block Match DB Exception - Index and length must refer to a location within the string.
+Parameter name: length|System.ArgumentOutOfRangeException: Index and length must refer to a location within the string.
+Parameter name: length
+   at System.String.Substring(Int32 startIndex, Int32 length)
+   at TiaParser.Driver.TiaBlock.AddBlockMatch(TiaParserDriver tiaParser, Int32 startIndex, Int32 size, String matchType) in C:\Users\rafael.mafra\Desktop\aglink\Tia-Parser\src\TiaParser.Driver\TiaBlock.cs:line 189
+2025-02-05 13:28:38.5729|WARN|TiaParser.Driver.TiaParserDriver|Invalid Block Match DB Exception - Index and length must refer to a location within the string.
+Parameter name: length|System.ArgumentOutOfRangeException: Index and length must refer to a location within the string.
+Parameter name: length
+   at System.String.Substring(Int32 startIndex, Int32 length)
+   at TiaParser.Driver.TiaBlock.AddBlockMatch(TiaParserDriver tiaParser, Int32 startIndex, Int32 size, String matchType) in C:\Users\rafael.mafra\Desktop\aglink\Tia-Parser\src\TiaParser.Driver\TiaBlock.cs:line 189
+2025-02-05 13:28:38.5729|WARN|TiaParser.Driver.TiaParserDriver|Invalid Block Match DB Exception - Index and length must refer to a location within the string.
+Parameter name: length|System.ArgumentOutOfRangeException: Index and length must refer to a location within the string.
+Parameter name: length
+   at System.String.Substring(Int32 startIndex, Int32 length)
+   at TiaParser.Driver.TiaBlock.AddBlockMatch(TiaParserDriver tiaParser, Int32 startIndex, Int32 size, String matchType) in C:\Users\rafael.mafra\Desktop\aglink\Tia-Parser\src\TiaParser.Driver\TiaBlock.cs:line 189
+2025-02-05 13:28:39.4809|WARN|TiaParser.Driver.TiaParserDriver|INVALID XML Block: 2785732|System.Xml.XmlException: There are multiple root elements. Line 1, position 77.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   at System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   at System.Xml.Linq.XDocument.Load(XmlReader reader, LoadOptions options)
+   at System.Xml.Linq.XDocument.Parse(String text, LoadOptions options)
+   at System.Xml.Linq.XDocument.Parse(String text)
+   at TiaParser.Driver.TiaXmlBlock.ParseXmlData(TiaParserDriver tiaParser) in C:\Users\rafael.mafra\Desktop\aglink\Tia-Parser\src\TiaParser.Driver\TiaXmlBlock.cs:line 101
+2025-02-05 13:28:39.4809|WARN|TiaParser.Driver.TiaParserDriver|FAILED TO FIND ENCRYPTED ROOT BLOCK: 2800618:
+2025-02-05 13:28:39.4809|WARN|TiaParser.Driver.TiaParserDriver|INVALID XML Block: 2871936|System.Xml.XmlException: There are multiple root elements. Line 1, position 84.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   at System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   at System.Xml.Linq.XDocument.Load(XmlReader reader, LoadOptions options)
+   at System.Xml.Linq.XDocument.Parse(String text, LoadOptions options)
+   at System.Xml.Linq.XDocument.Parse(String text)
+   at TiaParser.Driver.TiaXmlBlock.ParseXmlData(TiaParserDriver tiaParser) in C:\Users\rafael.mafra\Desktop\aglink\Tia-Parser\src\TiaParser.Driver\TiaXmlBlock.cs:line 101
+2025-02-05 13:28:39.4809|WARN|TiaParser.Driver.TiaParserDriver|FAILED TO FIND ENCRYPTED ROOT BLOCK: 3045734:
+2025-02-05 13:28:39.4809|WARN|TiaParser.Driver.TiaParserDriver|FAILED TO FIND ENCRYPTED ROOT BLOCK: 3055070:
+2025-02-05 13:28:39.4809|WARN|TiaParser.Driver.TiaParserDriver|INVALID XML Block: 3056205|System.Xml.XmlException: There are multiple root elements. Line 1, position 77.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   at System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   at System.Xml.Linq.XDocument.Load(XmlReader reader, LoadOptions options)
+   at System.Xml.Linq.XDocument.Parse(String text, LoadOptions options)
+   at System.Xml.Linq.XDocument.Parse(String text)
+   at TiaParser.Driver.TiaXmlBlock.ParseXmlData(TiaParserDriver tiaParser) in C:\Users\rafael.mafra\Desktop\aglink\Tia-Parser\src\TiaParser.Driver\TiaXmlBlock.cs:line 101
+2025-02-05 13:28:39.4809|WARN|TiaParser.Driver.TiaParserDriver|FAILED TO FIND ENCRYPTED ROOT BLOCK: 3206010:   d    %   !        DTL*84314C2C-B286-41C2-9A75-32EA79E15D4B:V3.0        
+2025-02-05 13:28:39.4809|WARN|TiaParser.Driver.TiaParserDriver|FAILED TO FIND ENCRYPTED ROOT BLOCK: 3255439:
+2025-02-05 13:28:39.4941|WARN|TiaParser.Driver.TiaParserDriver|INVALID XML Block: 3340220|System.Xml.XmlException: There are multiple root elements. Line 1, position 80.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   at System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   at System.Xml.Linq.XDocument.Load(XmlReader reader, LoadOptions options)
+   at System.Xml.Linq.XDocument.Parse(String text, LoadOptions options)
+   at System.Xml.Linq.XDocument.Parse(String text)
+   at TiaParser.Driver.TiaXmlBlock.ParseXmlData(TiaParserDriver tiaParser) in C:\Users\rafael.mafra\Desktop\aglink\Tia-Parser\src\TiaParser.Driver\TiaXmlBlock.cs:line 101
+2025-02-05 13:28:39.4941|WARN|TiaParser.Driver.TiaParserDriver|INVALID XML Block: 3384050|System.Xml.XmlException: There are multiple root elements. Line 1, position 68.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   at System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   at System.Xml.Linq.XDocument.Load(XmlReader reader, LoadOptions options)
+   at System.Xml.Linq.XDocument.Parse(String text, LoadOptions options)
+   at System.Xml.Linq.XDocument.Parse(String text)
+   at TiaParser.Driver.TiaXmlBlock.ParseXmlData(TiaParserDriver tiaParser) in C:\Users\rafael.mafra\Desktop\aglink\Tia-Parser\src\TiaParser.Driver\TiaXmlBlock.cs:line 101
+2025-02-05 13:28:39.4941|WARN|TiaParser.Driver.TiaParserDriver|INVALID XML Block: 3948348|System.Xml.XmlException: There are multiple root elements. Line 1, position 84.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   at System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   at System.Xml.Linq.XDocument.Load(XmlReader reader, LoadOptions options)
+   at System.Xml.Linq.XDocument.Parse(String text, LoadOptions options)
+   at System.Xml.Linq.XDocument.Parse(String text)
+   at TiaParser.Driver.TiaXmlBlock.ParseXmlData(TiaParserDriver tiaParser) in C:\Users\rafael.mafra\Desktop\aglink\Tia-Parser\src\TiaParser.Driver\TiaXmlBlock.cs:line 101
+2025-02-05 13:28:39.4941|WARN|TiaParser.Driver.TiaParserDriver|FAILED TO FIND ENCRYPTED ROOT BLOCK: 4117939:
+2025-02-05 13:28:39.5086|WARN|TiaParser.Driver.TiaParserDriver|INVALID XML Block: 4139489|System.Xml.XmlException: There are multiple root elements. Line 1, position 77.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   at System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   at System.Xml.Linq.XDocument.Load(XmlReader reader, LoadOptions options)
+   at System.Xml.Linq.XDocument.Parse(String text, LoadOptions options)
+   at System.Xml.Linq.XDocument.Parse(String text)
+   at TiaParser.Driver.TiaXmlBlock.ParseXmlData(TiaParserDriver tiaParser) in C:\Users\rafael.mafra\Desktop\aglink\Tia-Parser\src\TiaParser.Driver\TiaXmlBlock.cs:line 101
+2025-02-05 13:28:39.5086|WARN|TiaParser.Driver.TiaParserDriver|FAILED TO FIND ENCRYPTED ROOT BLOCK: 4140875:
+2025-02-05 13:28:39.5086|WARN|TiaParser.Driver.TiaParserDriver|INVALID XML Block: 4152566|System.Xml.XmlException: There are multiple root elements. Line 1, position 68.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   at System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   at System.Xml.Linq.XDocument.Load(XmlReader reader, LoadOptions options)
+   at System.Xml.Linq.XDocument.Parse(String text, LoadOptions options)
+   at System.Xml.Linq.XDocument.Parse(String text)
+   at TiaParser.Driver.TiaXmlBlock.ParseXmlData(TiaParserDriver tiaParser) in C:\Users\rafael.mafra\Desktop\aglink\Tia-Parser\src\TiaParser.Driver\TiaXmlBlock.cs:line 101
+2025-02-05 13:28:39.5086|WARN|TiaParser.Driver.TiaParserDriver|FAILED TO FIND MEMBER BLOCK: 3056197
+2025-02-05 13:28:39.5086|WARN|TiaParser.Driver.TiaParserDriver|FAILED TO FIND MEMBER BLOCK: 4139481
+2025-02-05 13:28:39.5236|WARN|TiaParser.Driver.TiaParserDriver|FAILED MAPPING XML BLOCK WITH ELEMENT RTG1SysInfo - 3213663
+2025-02-05 13:28:39.5236|WARN|TiaParser.Driver.TiaParserDriver|FAILED MAPPING XML BLOCK WITH ELEMENT FB32769_IDB_C - 3267087
+2025-02-05 13:28:39.5236|WARN|TiaParser.Driver.TiaParserDriver|FAILED MAPPING XML BLOCK WITH ELEMENT FB32770_IDB_C - 3302878
+2025-02-05 13:28:39.5236|WARN|TiaParser.Driver.TiaParserDriver|FAILED MAPPING XML BLOCK WITH ELEMENT FB32772_IDB_C - 3330645
+2025-02-05 13:29:00.4470|WARN|Program.Program|Please specify the TIA system file as a parameter!
+2025-02-05 13:29:02.8998|WARN|TiaParser.Driver.TiaParserDriver|Failed to Extract Compressed Element Root - 1197231|System.IO.InvalidDataException: Found invalid data while decoding.
+   at TiaParser.Driver.TiaParserCompressed.DecompressSegment(Byte[] segment) in C:\Users\rafael.mafra\Desktop\aglink\Tia-Parser\src\TiaParser.Driver\TiaParserCompressed.cs:line 308
+   at TiaParser.Driver.TiaParserCompressed.PartialExtraction(TiaParserDriver tiaParser, Byte[] decompressedElementData, Match zlibHeader, String elementName, Byte[] originalSegment, TiaParserCompressed tiaParserCompressed) in C:\Users\rafael.mafra\Desktop\aglink\Tia-Parser\src\TiaParser.Driver\TiaParserCompressed.cs:line 201
+   at TiaParser.Driver.TiaParserCompressed.BuildDecompressedElement(TiaParserDriver tiaParser, Byte[] decompressedElementData, Byte[] segment, String elementName, Match zlibHeader, TiaParserCompressed tiaParserCompressed, Boolean failed) in C:\Users\rafael.mafra\Desktop\aglink\Tia-Parser\src\TiaParser.Driver\TiaParserCompressed.cs:line 119
+   at TiaParser.Driver.TiaParserCompressed.DefineDecompressedElement(TiaParserDriver tiaParser, Match zlibHeader, String elementName, TiaParserCompressed tiaParserCompressed) in C:\Users\rafael.mafra\Desktop\aglink\Tia-Parser\src\TiaParser.Driver\TiaParserCompressed.cs:line 56
+   at TiaParser.Driver.TiaParserCompressed.ParseCompressedElements(TiaParserDriver tiaParser) in C:\Users\rafael.mafra\Desktop\aglink\Tia-Parser\src\TiaParser.Driver\TiaParserCompressed.cs:line 268
+2025-02-05 13:29:04.3698|WARN|TiaParser.Driver.TiaParserDriver|Failed to Extract Compressed Element Root - 3182229|System.IO.InvalidDataException: Found invalid data while decoding.
+   at TiaParser.Driver.TiaParserCompressed.DecompressSegment(Byte[] segment) in C:\Users\rafael.mafra\Desktop\aglink\Tia-Parser\src\TiaParser.Driver\TiaParserCompressed.cs:line 308
+   at TiaParser.Driver.TiaParserCompressed.PartialExtraction(TiaParserDriver tiaParser, Byte[] decompressedElementData, Match zlibHeader, String elementName, Byte[] originalSegment, TiaParserCompressed tiaParserCompressed) in C:\Users\rafael.mafra\Desktop\aglink\Tia-Parser\src\TiaParser.Driver\TiaParserCompressed.cs:line 201
+   at TiaParser.Driver.TiaParserCompressed.BuildDecompressedElement(TiaParserDriver tiaParser, Byte[] decompressedElementData, Byte[] segment, String elementName, Match zlibHeader, TiaParserCompressed tiaParserCompressed, Boolean failed) in C:\Users\rafael.mafra\Desktop\aglink\Tia-Parser\src\TiaParser.Driver\TiaParserCompressed.cs:line 119
+   at TiaParser.Driver.TiaParserCompressed.DefineDecompressedElement(TiaParserDriver tiaParser, Match zlibHeader, String elementName, TiaParserCompressed tiaParserCompressed) in C:\Users\rafael.mafra\Desktop\aglink\Tia-Parser\src\TiaParser.Driver\TiaParserCompressed.cs:line 56
+   at TiaParser.Driver.TiaParserCompressed.ParseCompressedElements(TiaParserDriver tiaParser) in C:\Users\rafael.mafra\Desktop\aglink\Tia-Parser\src\TiaParser.Driver\TiaParserCompressed.cs:line 268
+2025-02-05 13:29:08.5524|WARN|TiaParser.Driver.TiaParserDriver|Invalid Block Match DB Exception - Index and length must refer to a location within the string.
+Parameter name: length|System.ArgumentOutOfRangeException: Index and length must refer to a location within the string.
+Parameter name: length
+   at System.String.Substring(Int32 startIndex, Int32 length)
+   at TiaParser.Driver.TiaBlock.AddBlockMatch(TiaParserDriver tiaParser, Int32 startIndex, Int32 size, String matchType) in C:\Users\rafael.mafra\Desktop\aglink\Tia-Parser\src\TiaParser.Driver\TiaBlock.cs:line 189
+2025-02-05 13:29:08.5571|WARN|TiaParser.Driver.TiaParserDriver|Invalid Block Match DB Exception - Index and length must refer to a location within the string.
+Parameter name: length|System.ArgumentOutOfRangeException: Index and length must refer to a location within the string.
+Parameter name: length
+   at System.String.Substring(Int32 startIndex, Int32 length)
+   at TiaParser.Driver.TiaBlock.AddBlockMatch(TiaParserDriver tiaParser, Int32 startIndex, Int32 size, String matchType) in C:\Users\rafael.mafra\Desktop\aglink\Tia-Parser\src\TiaParser.Driver\TiaBlock.cs:line 189
+2025-02-05 13:29:08.5571|WARN|TiaParser.Driver.TiaParserDriver|Invalid Block Match DB Exception - Index and length must refer to a location within the string.
+Parameter name: length|System.ArgumentOutOfRangeException: Index and length must refer to a location within the string.
+Parameter name: length
+   at System.String.Substring(Int32 startIndex, Int32 length)
+   at TiaParser.Driver.TiaBlock.AddBlockMatch(TiaParserDriver tiaParser, Int32 startIndex, Int32 size, String matchType) in C:\Users\rafael.mafra\Desktop\aglink\Tia-Parser\src\TiaParser.Driver\TiaBlock.cs:line 189
+2025-02-05 13:29:08.5571|WARN|TiaParser.Driver.TiaParserDriver|Invalid Block Match DB Exception - Index and length must refer to a location within the string.
+Parameter name: length|System.ArgumentOutOfRangeException: Index and length must refer to a location within the string.
+Parameter name: length
+   at System.String.Substring(Int32 startIndex, Int32 length)
+   at TiaParser.Driver.TiaBlock.AddBlockMatch(TiaParserDriver tiaParser, Int32 startIndex, Int32 size, String matchType) in C:\Users\rafael.mafra\Desktop\aglink\Tia-Parser\src\TiaParser.Driver\TiaBlock.cs:line 189
+2025-02-05 13:29:08.5571|WARN|TiaParser.Driver.TiaParserDriver|Invalid Block Match DB Exception - Index and length must refer to a location within the string.
+Parameter name: length|System.ArgumentOutOfRangeException: Index and length must refer to a location within the string.
+Parameter name: length
+   at System.String.Substring(Int32 startIndex, Int32 length)
+   at TiaParser.Driver.TiaBlock.AddBlockMatch(TiaParserDriver tiaParser, Int32 startIndex, Int32 size, String matchType) in C:\Users\rafael.mafra\Desktop\aglink\Tia-Parser\src\TiaParser.Driver\TiaBlock.cs:line 189
+2025-02-05 13:29:08.5571|WARN|TiaParser.Driver.TiaParserDriver|Invalid Block Match DB Exception - Index and length must refer to a location within the string.
+Parameter name: length|System.ArgumentOutOfRangeException: Index and length must refer to a location within the string.
+Parameter name: length
+   at System.String.Substring(Int32 startIndex, Int32 length)
+   at TiaParser.Driver.TiaBlock.AddBlockMatch(TiaParserDriver tiaParser, Int32 startIndex, Int32 size, String matchType) in C:\Users\rafael.mafra\Desktop\aglink\Tia-Parser\src\TiaParser.Driver\TiaBlock.cs:line 189
+2025-02-05 13:29:09.5801|WARN|TiaParser.Driver.TiaParserDriver|INVALID XML Block: 2785732|System.Xml.XmlException: There are multiple root elements. Line 1, position 77.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   at System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   at System.Xml.Linq.XDocument.Load(XmlReader reader, LoadOptions options)
+   at System.Xml.Linq.XDocument.Parse(String text, LoadOptions options)
+   at System.Xml.Linq.XDocument.Parse(String text)
+   at TiaParser.Driver.TiaXmlBlock.ParseXmlData(TiaParserDriver tiaParser) in C:\Users\rafael.mafra\Desktop\aglink\Tia-Parser\src\TiaParser.Driver\TiaXmlBlock.cs:line 101
+2025-02-05 13:29:09.5801|WARN|TiaParser.Driver.TiaParserDriver|FAILED TO FIND ENCRYPTED ROOT BLOCK: 2800618:
+2025-02-05 13:29:09.5881|WARN|TiaParser.Driver.TiaParserDriver|INVALID XML Block: 2871936|System.Xml.XmlException: There are multiple root elements. Line 1, position 84.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   at System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   at System.Xml.Linq.XDocument.Load(XmlReader reader, LoadOptions options)
+   at System.Xml.Linq.XDocument.Parse(String text, LoadOptions options)
+   at System.Xml.Linq.XDocument.Parse(String text)
+   at TiaParser.Driver.TiaXmlBlock.ParseXmlData(TiaParserDriver tiaParser) in C:\Users\rafael.mafra\Desktop\aglink\Tia-Parser\src\TiaParser.Driver\TiaXmlBlock.cs:line 101
+2025-02-05 13:29:09.5881|WARN|TiaParser.Driver.TiaParserDriver|FAILED TO FIND ENCRYPTED ROOT BLOCK: 3045734:
+2025-02-05 13:29:09.5881|WARN|TiaParser.Driver.TiaParserDriver|FAILED TO FIND ENCRYPTED ROOT BLOCK: 3055070:
+2025-02-05 13:29:09.5881|WARN|TiaParser.Driver.TiaParserDriver|INVALID XML Block: 3056205|System.Xml.XmlException: There are multiple root elements. Line 1, position 77.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   at System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   at System.Xml.Linq.XDocument.Load(XmlReader reader, LoadOptions options)
+   at System.Xml.Linq.XDocument.Parse(String text, LoadOptions options)
+   at System.Xml.Linq.XDocument.Parse(String text)
+   at TiaParser.Driver.TiaXmlBlock.ParseXmlData(TiaParserDriver tiaParser) in C:\Users\rafael.mafra\Desktop\aglink\Tia-Parser\src\TiaParser.Driver\TiaXmlBlock.cs:line 101
+2025-02-05 13:29:09.5881|WARN|TiaParser.Driver.TiaParserDriver|FAILED TO FIND ENCRYPTED ROOT BLOCK: 3206010:   d    %   !        DTL*84314C2C-B286-41C2-9A75-32EA79E15D4B:V3.0        
+2025-02-05 13:29:09.5881|WARN|TiaParser.Driver.TiaParserDriver|FAILED TO FIND ENCRYPTED ROOT BLOCK: 3255439:
+2025-02-05 13:29:09.5881|WARN|TiaParser.Driver.TiaParserDriver|INVALID XML Block: 3340220|System.Xml.XmlException: There are multiple root elements. Line 1, position 80.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   at System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   at System.Xml.Linq.XDocument.Load(XmlReader reader, LoadOptions options)
+   at System.Xml.Linq.XDocument.Parse(String text, LoadOptions options)
+   at System.Xml.Linq.XDocument.Parse(String text)
+   at TiaParser.Driver.TiaXmlBlock.ParseXmlData(TiaParserDriver tiaParser) in C:\Users\rafael.mafra\Desktop\aglink\Tia-Parser\src\TiaParser.Driver\TiaXmlBlock.cs:line 101
+2025-02-05 13:29:09.5881|WARN|TiaParser.Driver.TiaParserDriver|INVALID XML Block: 3384050|System.Xml.XmlException: There are multiple root elements. Line 1, position 68.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   at System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   at System.Xml.Linq.XDocument.Load(XmlReader reader, LoadOptions options)
+   at System.Xml.Linq.XDocument.Parse(String text, LoadOptions options)
+   at System.Xml.Linq.XDocument.Parse(String text)
+   at TiaParser.Driver.TiaXmlBlock.ParseXmlData(TiaParserDriver tiaParser) in C:\Users\rafael.mafra\Desktop\aglink\Tia-Parser\src\TiaParser.Driver\TiaXmlBlock.cs:line 101
+2025-02-05 13:29:09.6073|WARN|TiaParser.Driver.TiaParserDriver|INVALID XML Block: 3948348|System.Xml.XmlException: There are multiple root elements. Line 1, position 84.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   at System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   at System.Xml.Linq.XDocument.Load(XmlReader reader, LoadOptions options)
+   at System.Xml.Linq.XDocument.Parse(String text, LoadOptions options)
+   at System.Xml.Linq.XDocument.Parse(String text)
+   at TiaParser.Driver.TiaXmlBlock.ParseXmlData(TiaParserDriver tiaParser) in C:\Users\rafael.mafra\Desktop\aglink\Tia-Parser\src\TiaParser.Driver\TiaXmlBlock.cs:line 101
+2025-02-05 13:29:09.6073|WARN|TiaParser.Driver.TiaParserDriver|FAILED TO FIND ENCRYPTED ROOT BLOCK: 4117939:
+2025-02-05 13:29:09.6073|WARN|TiaParser.Driver.TiaParserDriver|INVALID XML Block: 4139489|System.Xml.XmlException: There are multiple root elements. Line 1, position 77.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   at System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   at System.Xml.Linq.XDocument.Load(XmlReader reader, LoadOptions options)
+   at System.Xml.Linq.XDocument.Parse(String text, LoadOptions options)
+   at System.Xml.Linq.XDocument.Parse(String text)
+   at TiaParser.Driver.TiaXmlBlock.ParseXmlData(TiaParserDriver tiaParser) in C:\Users\rafael.mafra\Desktop\aglink\Tia-Parser\src\TiaParser.Driver\TiaXmlBlock.cs:line 101
+2025-02-05 13:29:09.6073|WARN|TiaParser.Driver.TiaParserDriver|FAILED TO FIND ENCRYPTED ROOT BLOCK: 4140875:
+2025-02-05 13:29:09.6073|WARN|TiaParser.Driver.TiaParserDriver|INVALID XML Block: 4152566|System.Xml.XmlException: There are multiple root elements. Line 1, position 68.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   at System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   at System.Xml.Linq.XDocument.Load(XmlReader reader, LoadOptions options)
+   at System.Xml.Linq.XDocument.Parse(String text, LoadOptions options)
+   at System.Xml.Linq.XDocument.Parse(String text)
+   at TiaParser.Driver.TiaXmlBlock.ParseXmlData(TiaParserDriver tiaParser) in C:\Users\rafael.mafra\Desktop\aglink\Tia-Parser\src\TiaParser.Driver\TiaXmlBlock.cs:line 101
+2025-02-05 13:29:09.6203|WARN|TiaParser.Driver.TiaParserDriver|FAILED TO FIND MEMBER BLOCK: 3056197
+2025-02-05 13:29:09.6203|WARN|TiaParser.Driver.TiaParserDriver|FAILED TO FIND MEMBER BLOCK: 4139481
+2025-02-05 13:29:09.6203|WARN|TiaParser.Driver.TiaParserDriver|FAILED MAPPING XML BLOCK WITH ELEMENT RTG1SysInfo - 3213663
+2025-02-05 13:29:09.6203|WARN|TiaParser.Driver.TiaParserDriver|FAILED MAPPING XML BLOCK WITH ELEMENT FB32769_IDB_C - 3267087
+2025-02-05 13:29:09.6203|WARN|TiaParser.Driver.TiaParserDriver|FAILED MAPPING XML BLOCK WITH ELEMENT FB32770_IDB_C - 3302878
+2025-02-05 13:29:09.6203|WARN|TiaParser.Driver.TiaParserDriver|FAILED MAPPING XML BLOCK WITH ELEMENT FB32772_IDB_C - 3330645

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "zDOaqoQUSw8=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\rafael.mafra\\Desktop\\aglink\\Tia-Parser\\src\\TiaParser.Driver\\TiaParser.Driver.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rafael.mafra\\.nuget\\packages\\nlog\\5.3.4\\nlog.5.3.4.nupkg.sha512",
+    "C:\\Users\\rafael.mafra\\.nuget\\packages\\zlib.net-mutliplatform\\1.0.8\\zlib.net-mutliplatform.1.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}
