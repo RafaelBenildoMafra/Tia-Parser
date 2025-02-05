@@ -14,4 +14,3 @@ To read and analyze the `.plf` file, was used [Imhex](https://github.com/WerWolv
  1. Navigate to the System folder in a typical TIA Portal project.
  2. Select the `PEData.plf` file.
  3. The reference addresses will be exported to the directory containing the `.plf` file in an `export.txt` file.
-  <img width="500" alt="image" src="https://github.com/user-attachments/assets/eff73927-a914-453d-9b6a-a184c954e2ef" />
