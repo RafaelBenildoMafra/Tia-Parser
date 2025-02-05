@@ -8,7 +8,7 @@ The application is supposed to work with TIA Portal versions 15 and onwards.
 Within the TIA Portal, there is a mechanism that runs a Reorganization Task to eliminate data from the `.plf` file once its size exceeds approximately 5 KB. Unfortunately, this mechanism may remove important information needed to reconstruct the data, which affects the parser’s ability to work with larger files.
 
 # Tools Used
-To read and analyze the `.plf` file, I used [Imhex](https://github.com/WerWolv/ImHex) by WerWolv, which I highly recommend.
+To read and analyze the `.plf` file, Was used [Imhex](https://github.com/WerWolv/ImHex) by WerWolv, which I highly recommend.
 
 # How to Use
  1. Navigate to the system folder in a typical TIA Portal project.
