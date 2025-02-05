@@ -11,7 +11,7 @@ Within the TIA Portal, there is a mechanism that runs a Reorganization Task to e
 To read and analyze the `.plf` file, was used [Imhex](https://github.com/WerWolv/ImHex) by WerWolv, which I highly recommend.
 
 # How to Use
- 1. Navigate to the system folder in a typical TIA Portal project.
+ 1. Navigate to the System folder in a typical TIA Portal project.
  2. Select the `PEData.plf` file.
  3. The reference addresses will be exported to the directory containing the `.plf` file in an `export.txt` file.
   <img width="500" alt="image" src="https://github.com/user-attachments/assets/eff73927-a914-453d-9b6a-a184c954e2ef" />
